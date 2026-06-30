@@ -55,7 +55,45 @@
         <p>
             Este foi o primeiro site que desenvolvi estudando Front-end e estou muito feliz com o resultado, espero que gostem do meu trabalho e que possamos trabalhar juntos em projetos futuros.
 
-        </p>
+     <section id="habilidades"> <!--Seção de habilidades-->
+            <h2>Habilidades e tecnologias</h2>
+
+         <table>
+
+            <thead>
+                    <tr>
+                        <th>Tecnologia</th>
+                        <th>Nivel</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Iniciantes</td>
+                        <td>Capaz de criar estruturas de página web semânticas e responsivas.</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Intermediário</td>
+                        <td>Experiência com flexbox, grid e animações CSS.</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Básico</td>
+                        <td>Desenvolvimento de scripts do lado do cliente para interações dinâmicas.</td>
+                    </tr>
+
+           
+        </section>
+
+        <section id="projetos"> <!--Seção de projetos-->
+            <h2>Projetos</h2>
+
+            <p>
+                Durante minha jornada como desenvolvedor, tive a oportunidade de trabalhar em diversos projetos que me permitiram aplicar meus conhecimentos e habilidades. Um dos projetos mais significativos foi o desenvolvimento de um sistema de gerenciamento de tarefas para uma empresa local, onde pude implementar funcionalidades como criação, edição e exclusão de tarefas, além de um sistema de autenticação para garantir a segurança dos dados.
+            </p>
 
         <footer>
             <p>© 2026   Carlos. Todos os direitos reservados.</p> 
@@ -64,6 +102,33 @@
 
                 <h2>Contato</h2>
                 <p>tem um projeto em mente entre em contato comigo</p>
+
+                <form action="mailto:schwbacas@gmail.com" method="post" enctype="text/plain">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br>
+                    
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" ><br>
+
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="orçamento">orçamento</option>
+                        <option value="duvidas">Informações</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="outro">outro</option>
+                    </select><br>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea><br>
+
+                    <input type="checkbox" id="newsletter" name="inscricao">
+                    <label for="newsletter">Quero receber novidades por email</label><br>
+
+                    <button type="submit">Enviar</button>
 
                 <address>
                     <p>Carlos </p>
